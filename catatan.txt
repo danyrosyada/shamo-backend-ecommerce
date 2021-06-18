@@ -1,0 +1,40 @@
+
+// backend field
+ABCD ITU TABLE
+
+# sign up
+# register acount
+A) USER
+1. username
+2. phone_number
+3. roles
+
+#home page
+#menu utama show off produk populer dan baru
+B) KATEGORI PRODUK
+1. nama_kategori
+
+C) PRODUK
+1. nama_produk
+2. harga
+3. deskripsi
+4. tags
+5. B) Kategori Produk (relasi) 
+
+D) Galeri Produk
+1. C) Produk
+2. url (gambar bentuk url di simpen di storage url)
+
+E) Transaksi
+1. A) User (yang beli)
+2. alamat
+3. metode bayar (manual)
+4. total harga
+5. total pengiriman (shipping)
+6. status
+
+F) Detail Transaksi
+1. A) User
+2. C) Produk
+3. E) Transaksi
+4. kuantitas (misal bisa beli 2 barang dalam 1 produk) 
